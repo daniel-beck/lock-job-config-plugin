@@ -6,11 +6,10 @@ This is a utility plugin for Jenkins that helps use cases that programmatically 
 
 This plugin has no UI and is not useful to anyone exclusively configuring jobs from the Jenkins UI.
 
-The following snippet demonstrates use of this plugin:
+The following `config.xml` snippet demonstrates use of this plugin:
 
 	<?xml version='1.0' encoding='UTF-8'?>
 	<project>
-	  <keepDependencies>false</keepDependencies>
 	  <properties>
 	    <config-lock>
 	      <title>custom title</title>

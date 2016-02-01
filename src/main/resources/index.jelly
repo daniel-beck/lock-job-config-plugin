@@ -1,0 +1,5 @@
+<?jelly escape-by-default='true'?>
+<div>
+  This plugin can be used by programmatic job creation/management
+  strategies to disable the configuration UI of jobs.
+</div>
